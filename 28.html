@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h1 align="center">Registration form</h1>
+        <form action="response.html">       <!-- the file named response.html will open after pressing submit button-->
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" placeholder="Enter your first name" />
+            <br/>
+            <br/>
+
+            <label for="lname">Last Name:</label> 
+            <input type="text" id="lname" placeholder="Enter your last name" />
+            <br/>
+            <br/>
+
+            <label for="gn">Gender:</label>
+            <input type="radio" id="gn" name="gnd">Male &nbsp;
+            <input type="radio" id="gn" name="gnd">Female &nbsp;
+            <input type="radio" id="gn" name="gnd">Other
+            <br/>
+            <br/>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="xyz@gmail.com">
+            <br/>
+            <br/>
+
+            <label for="hb">Hobbies:</label>
+            <input type="checkbox" id="hb" name="sg">Singing &nbsp;
+            <input type="checkbox" id="hb" name="sg">Reading &nbsp;
+            <input type="checkbox" id="hb" name="sg">Riding &nbsp;
+            <input type="checkbox" id="hb" name="sg">Gyming &nbsp;
+            <br/>
+            <br/>
+
+            <label for="ad">Adress:</label>
+            <textarea name="ad" id="" cols="20" rows="3" placeholder="Enter your address"></textarea>
+            <br/>
+            <br/>
+
+            <label for="Location>">Job Location</label>
+            <select>
+                <option value="1">None</option>
+                <option value="2">Mumbai</option>
+                <option value="3">Delhi</option>
+                <option value="4">Pune</option>
+            </select>
+            <br/>
+            <br/>
+
+            <label for="ps">Password:</label>
+            <input type="password" id="ps" placeholder="Enter your password">
+            <br/>
+            <br/>
+
+            <input type="submit" name="sb">
+            <br/>
+            <br/>
+        </form>
+    </body>
+</html>
