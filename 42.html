@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Child selector</title>
+        <style>
+            div>p   /* > is the symbol for the child selector*/
+            {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to HTML CSS</h1>
+		<p>Information about CSS</p>
+		<div>
+		<p>CSS is the language for describing the presentation 
+		of Web pages, including colors, layout, and fonts.</p> 
+		<p>It allows one to adapt the presentation to different 
+		types of devices, such as large screens, small screens, 
+		or printers.</p>
+		<h3><p>CSS is independent of HTML</p> and can be used 
+		with any XML-based markup language.</h3>
+        </div>
+
+        <!-- here <p> inside the <h3> is a child of <h3> but not the child of <div>
+		but <p> inside the <h3> is a descendant of <div> -->
+    </body>
+</html>
