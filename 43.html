@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adjacent Sibling Selector</title>
+        <style>
+            h1+h2     /* + symbol is used for the Adjacent sibling selector*/
+            {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to HTML CSS</h1>
+		<p>Information about CSS</p>
+		<div>
+		<h1>CSS is the language for describing the presentation 
+		of Web pages, including colors, layout, and fonts.</h1> 
+		<h2>It allows one to adapt the presentation to different 
+		types of devices, such as large screens, small screens, 
+		or printers.</h2>
+		<h3><p>CSS is independent of HTML</p> and can be used 
+		with any XML-based markup language.</h3>
+		</div>
+        <!-- Even though h1 and h3 have comman parent <div>
+        but h1+h3 will not give expected o/p
+	    And h1+h2 give the expected o/p
+	    because h2 is the immidiate element after h1 -->
+    </body>
+</html>
