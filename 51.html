@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>[attribute^="value"]</title>
+        <style>
+            [class^="t"]   /* selects an element with attribute value starting with specified value */
+                           /* here the starting value is t so the line 2and line 3 will be in red colour */
+            {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="one-header">Line 1</h1>
+        <h1 class="two-header">Line 2</h1>
+        <h1 class="three-header">Line 3</h1>
+    </body>
+</html>
