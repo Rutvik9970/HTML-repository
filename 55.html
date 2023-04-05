@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Tables</title>
+        <style>
+            table, th, td
+            {
+                border: 2px solid blue;
+                border-collapse: collapse;
+                width: 400px;
+            }
+            th
+            {
+                background-color: orange;
+            }
+            tr
+            {
+                text-align: center;
+            }
+            tr:nth-child(even)
+            {
+                background-color: yellow;
+            }
+            tr:nth-child(odd)
+            {
+                background-color: #b376f5;
+            }
+            tr:hover
+            {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <table>
+                <caption>Student Details</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>CGPA</th>
+                    <th>Place</th>
+                </tr>
+                <tr>
+                    <td>Arun</td>
+                    <td>100</td>
+                    <td>8.3</td>
+                    <td>Banglore</td>
+                </tr>
+                <tr>
+                    <td>Ajay</td>
+                    <td>101</td>
+                    <td>8.4</td>
+                    <td>Mumbai</td>
+                </tr>
+                <tr>
+                    <td>Anu</td>
+                    <td>102</td>
+                    <td>8.5</td>
+                    <td>Hyderabad</td>
+                </tr>
+                <tr>
+                    <td>Ajit</td>
+                    <td>103</td>
+                    <td>8.6</td>
+                    <td>Manglore</td>
+                </tr>
+                <tr>
+                    <td>Ajay</td>
+                    <td>104</td>
+                    <td>8.7</td>
+                    <td>Delhi</td>
+                </tr>
+                <tr>
+                    <td>Amrut</td>
+                    <td>105</td>
+                    <td>8.8</td>
+                    <td>Chennai</td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
