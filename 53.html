@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>[attribute*="value"]</title>
+        <style>
+            [class*="o"]   /* selects an element with attribute value that contains specified value.
+                              The value can be any where in the word not necessarily at starting or ending*/
+            {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="one-header">Line 1</h1>
+        <h1 class="two-header">Line 2</h1>
+        <h1 class="three-header">Line 3</h1>
+    </body>
+</html>
